@@ -44,8 +44,6 @@ fn main() {
         compressed_end: 0,
     };
 
-    println!("Hello, world!");
-
     decompress(
         &compressed_bytes,
         &mut decompressed_bytes,
